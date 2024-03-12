@@ -81,7 +81,11 @@ body
         align-items: flex-start;
         margin-bottom: 20px;
     }
- .form-row input [type='text']{
+.form-row input [type='text']
+.form-row input[type='email'],
+.form-row select,
+.form-row textarea 
+    {
     width: 250px;
     height: initial;
  }
