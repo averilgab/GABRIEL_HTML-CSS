@@ -27,7 +27,7 @@ body
 
     width: 80%;
     margin: 40px 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .speaker-form-header h1
@@ -77,16 +77,45 @@ body
 border: 1px solid #D55C5F;
 color: #D55C5F;
 box-shadow: none;}
+
+  .legacy-form-row {
+    border: none;
+    margin-bottom: 40px;
+  }
+  
+  .legacy-form-row legend {
+    margin-bottom: 15px;
+  }
+  
+  .legacy-form-row .radio-label {
+    display: block;
+    font-size: 14px;
+    padding: 0 20px 0 10px;
+  }
+  
+  .legacy-form-row input[type='radio'] {
+    margin-top: 2px;
+  }
+    
+ .legacy-form-row .radio-label,
+  .legacy-form-row input[type='radio'] {
+    float: left;
+  }
+
+
 @media only screen and (min-width: 700px)
 {
     .speaker-form-header
-    .speaker-form{width: 600;}
-    .form-row{
+    .speaker-form{width: 600px;
+}
+
+    .form-row
+    {
         flex-direction: row;
         align-items: flex-start;
         margin-bottom: 20px;
     }
-.form-row input [type='text']
+.form-row input [type='text'],
 .form-row input[type='email'],
 .form-row select,
 .form-row textarea 
@@ -100,5 +129,16 @@ box-shadow: none;}
     margin-top: 7px;
     padding-right: 20px;
  }
+ .legacy-form-row {
+        margin-bottom: 10px;
+    }
+      .legacy-form-row legend {
+        width: 120px;
+        text-align: right;
+        padding-right: 20px;
+    }
+    .legacy-form-row legend {
+        float: left;
+    }
 
 }
