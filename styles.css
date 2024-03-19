@@ -102,6 +102,21 @@ box-shadow: none;}
     float: left;
   }
 
+.form-row textarea {
+ font-family: "Helvetica", "Arial", sans-serif;
+ font-size: 14px;
+ border: 1px solid #D6D9DC;
+ border-radius: 3px;
+ min-height: 200px;
+ margin-bottom: 10px;
+ padding: 7px;
+ resize: none;
+}
+.form-row .instructions {
+ color: #999999;
+ font-size: 14px;
+margin-bottom: 30px;
+}
 
 @media only screen and (min-width: 700px)
 {
@@ -140,5 +155,15 @@ box-shadow: none;}
     .legacy-form-row legend {
         float: left;
     }
-
+    
+.form-row .instructions {
+ margin-left: 120px;
+ }
+    .form-row .checkbox-label {
+ margin-left: 120px;
+ width: auto;
+ }
+form-row .checkbox-label {
+ margin-bottom: 0;
+}
 }
