@@ -78,27 +78,27 @@ border: 1px solid #D55C5F;
 color: #D55C5F;
 box-shadow: none;}
 
-  .legacy-form-row {
+.legacy-form-row {
     border: none;
     margin-bottom: 40px;
   }
   
-  .legacy-form-row legend {
+.legacy-form-row legend {
     margin-bottom: 15px;
   }
   
-  .legacy-form-row .radio-label {
+.legacy-form-row .radio-label {
     display: block;
     font-size: 14px;
     padding: 0 20px 0 10px;
   }
   
-  .legacy-form-row input[type='radio'] {
+.legacy-form-row input[type='radio'] {
     margin-top: 2px;
   }
     
- .legacy-form-row .radio-label,
-  .legacy-form-row input[type='radio'] {
+.legacy-form-row .radio-label,
+.legacy-form-row input[type='radio'] {
     float: left;
   }
 
@@ -124,7 +124,7 @@ margin-bottom: 30px;
     .speaker-form{width: 600px;
 }
 
-    .form-row
+.form-row
     {
         flex-direction: row;
         align-items: flex-start;
@@ -147,23 +147,23 @@ margin-bottom: 30px;
  .legacy-form-row {
         margin-bottom: 10px;
     }
-      .legacy-form-row legend {
+ .legacy-form-row legend {
         width: 120px;
         text-align: right;
         padding-right: 20px;
     }
-    .legacy-form-row legend {
+.legacy-form-row legend {
         float: left;
     }
     
 .form-row .instructions {
  margin-left: 120px;
  }
-    .form-row .checkbox-label {
+.form-row .checkbox-label {
  margin-left: 120px;
  width: auto;
  }
-form-row .checkbox-label {
+.form-row .checkbox-label {
  margin-bottom: 0;
 }
 }
